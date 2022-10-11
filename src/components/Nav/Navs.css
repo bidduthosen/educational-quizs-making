@@ -1,0 +1,15 @@
+.nav-title{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.navbar-items a{
+    padding: 10px;
+    text-decoration: none;
+}
+.navbar-items a:hover{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+    color: black;
+    transition: 0.5s;
+}
