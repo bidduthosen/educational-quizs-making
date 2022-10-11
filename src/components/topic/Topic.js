@@ -1,10 +1,11 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Topic.css';
 
 
 const Topic = ({topic}) => {
-    const { name, logo}= topic;
+    const {id, name, logo, total}= topic;
     return (
         <div className='topic-info'>
             <div className=''>
@@ -12,7 +13,8 @@ const Topic = ({topic}) => {
             </div>
             <div className='topic-text'>
                 <h4>{name}</h4>
-                <button>Start Practies</button>
+                <p>Total quizs: {total}</p>
+                <Link to={`/quizs/${id}`}><button>Start Practies</button></Link>
             </div>
         </div>
     );

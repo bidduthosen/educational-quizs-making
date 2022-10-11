@@ -5,11 +5,15 @@
     background-color: #bcdfdf;
 }
 .topic-info img{
-    height: 100px;
+    height: 150px;
 }
 .topic-text button{
-    height: 40px;
+    height: 35px;
     width: 120px;
     border: 0;
     border-radius: 15px;
+}
+.topic-text button:hover{
+    background-color: #ffcb00;
+    transition: 0.5s;
 }

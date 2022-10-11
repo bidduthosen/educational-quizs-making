@@ -13,8 +13,8 @@ function Navs() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navbar-items">
             <Link to='/'>Home</Link>
-            <Link to='/'>Quiz</Link>
-            <Link to='/'>Blog</Link>
+            <Link to='/'>Features</Link>
+            <Link to='/blog'>Blog</Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
