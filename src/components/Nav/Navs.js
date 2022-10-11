@@ -12,7 +12,7 @@ function Navs() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto navbar-items">
-            <Link to='/home'>Home</Link>
+            <Link to='/'>Home</Link>
             <Link to='/'>Quiz</Link>
             <Link to='/'>Blog</Link>
           </Nav>
