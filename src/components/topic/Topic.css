@@ -1,0 +1,15 @@
+.topic-info{
+    border: 1px solid firebrick;
+    margin: 15px;
+    padding: 15px;
+    background-color: #bcdfdf;
+}
+.topic-info img{
+    height: 100px;
+}
+.topic-text button{
+    height: 40px;
+    width: 120px;
+    border: 0;
+    border-radius: 15px;
+}

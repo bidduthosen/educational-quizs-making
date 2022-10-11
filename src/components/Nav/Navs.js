@@ -15,7 +15,6 @@ function Navs() {
             <Link to='/home'>Home</Link>
             <Link to='/'>Quiz</Link>
             <Link to='/'>Blog</Link>
-            
           </Nav>
         </Navbar.Collapse>
       </Container>
