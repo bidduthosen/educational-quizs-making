@@ -12,7 +12,7 @@ const QuizDetails = ({quiz}) => {
             <h2>Question: {question}</h2>
             
             {
-                options.map((option, index )=> <div className='quiz-question' key={index} onClick={()=>handleAddToCard(quiz)}>{option}</div>)
+                options.map((option, index )=> <div className='quiz-question' key={index} onClick={()=>handleAddToCard(option)}>{option}</div>)
             }
         </div>
     );

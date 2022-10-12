@@ -1,0 +1,12 @@
+.statistics{
+    background-color: aliceblue;
+}
+.statistics h2{
+    font-weight: bold;
+    margin: 40px 0;
+}
+.recharts{
+    background-color: #00ffbe0d;
+    display: flex;
+    justify-content: center;
+}
