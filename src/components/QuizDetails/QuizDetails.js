@@ -12,15 +12,16 @@ const QuizDetails = ({quiz}) => {
     const handleAddToCard = quiz =>{
         const exist =correctAnswer;
         if(exist === quiz){
-            alert('Right Answare!');
+            toast.success('Right Answere');
+            
         }
         else{
-            alert('Worng Answare');
+            toast.warning('Wrong Answere');
         }
     };
 
     // toast
-    const notification = (correctAnswer) => toast(`Correct Answer: ${correctAnswer}`);
+    const notification = (correctAnswer) => toast.info(`Correct Answer: ${correctAnswer}`);
     return (
         <Container>
             <div className='quiz-info'>
