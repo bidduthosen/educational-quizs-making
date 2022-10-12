@@ -8,7 +8,7 @@ const Topic = ({topic}) => {
     const {id, name, logo, total}= topic;
     return (
         <div className='topic-info'>
-            <div className=''>
+            <div className='topic-img'>
                 <img src={logo} alt="" />
             </div>
             <div className='topic-text'>

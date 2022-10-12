@@ -6,6 +6,8 @@
 }
 .topic-info img{
     height: 150px;
+    background-color: #62495538;
+    border-radius: 15px;
 }
 .topic-text button{
     height: 35px;

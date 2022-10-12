@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Quizs from './components/quizs/Quizs';
 import Blog from './components/Blog/Blog';
 import Statistics from './components/Statistics/Statistics';
+import NotFound from './components/NotFound/NotFound';
 
 function App() {
   const router =createBrowserRouter([
@@ -32,7 +33,7 @@ function App() {
         { path: '/blog', element: <Blog></Blog>}
       ]
     },
-    {path: '*', element: <div> Not for Found: 404</div>}
+    {path: '*', element: <NotFound></NotFound>}
   ])
   return (
     <div className="App">

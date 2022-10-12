@@ -3,5 +3,8 @@
     padding: 15px;
     border: 1px solid darkblue;
     border-radius: 15px;
-    background-color: #e6e2d7;
+}
+.quiz-ques-info:hover{
+    background-color: #efdee0;
+    transition: 0.5s;
 }

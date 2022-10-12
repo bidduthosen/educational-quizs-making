@@ -3,10 +3,12 @@ import QuizQuestion from '../QuizQuestion/QuizQuestion';
 import './QuizDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEye } from '@fortawesome/free-solid-svg-icons';
+import {toast, ToastContainer} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Container } from 'react-bootstrap';
 
 const QuizDetails = ({quiz}) => {
-    const {question,options,correctAnswer}= quiz;
-
+    const {question, options, correctAnswer}= quiz;
     const handleAddToCard = quiz =>{
         const exist =correctAnswer;
         if(exist === quiz){
@@ -16,11 +18,18 @@ const QuizDetails = ({quiz}) => {
             alert('Worng Answare');
         }
     };
+
+    // toast
+    const notification = (correctAnswer) => toast(`Correct Answer: ${correctAnswer}`);
     return (
-        <div className='quiz-info'>
+        <Container>
+            <div className='quiz-info'>
             <div className='quizze-icon'>
-            <h4>Question: {question}</h4>
-            <FontAwesomeIcon className='eye-icon' icon={faEye}></FontAwesomeIcon>
+                <h4>Question: {question}</h4>
+            <div onClick={()=>notification(correctAnswer)}>
+                <FontAwesomeIcon className='eye-icon' icon={faEye}></FontAwesomeIcon>
+            </div>
+            <ToastContainer></ToastContainer>
             </div>
             <div className='quiz-question'>
                 {
@@ -28,6 +37,7 @@ const QuizDetails = ({quiz}) => {
                 }
             </div>
         </div>
+        </Container>
     );
 };
 

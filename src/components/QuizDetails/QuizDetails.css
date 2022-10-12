@@ -1,9 +1,9 @@
 .quiz-info{
-    border: 1px solid darkblue;
     margin: 15px;
     padding: 15px;
-    background-color: antiquewhite;
-    margin-bottom: 50px;
+    background-color: #e2c8c83d;
+    margin-bottom: 70px;
+    box-shadow: 8px 15px #88888861;
 }
 .quiz-info h4{
     font-weight: bold;
@@ -18,10 +18,12 @@
 }
 .quizze-icon{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 .eye-icon {
     padding-right: 15px;
     font-size: 25px;
+    color: blue;
 }
