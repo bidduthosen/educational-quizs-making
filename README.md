@@ -1,5 +1,16 @@
-## educational quiz making
+## Educational Quiz Making
 github code link :(https://github.com/programming-hero-web-course2/b6-quiz-crackerz-bidduthosen).
+
+### Features
+
+added favicon and title.
+react router installed and useing my project.
+used dynamic data loaded.
+used react bootstrap.
+use loaded dynamic data and create rechart .
+use many components.
+used react toastfy.
+used react fontAwesome icon.
 
 # Getting Started with Create React App
 
