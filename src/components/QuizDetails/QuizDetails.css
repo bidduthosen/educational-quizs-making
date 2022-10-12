@@ -16,3 +16,12 @@
     padding: 15px;
     margin: 15px;
 }
+.quizze-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.eye-icon {
+    padding-right: 15px;
+    font-size: 25px;
+}

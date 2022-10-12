@@ -14,7 +14,7 @@ const Topic = ({topic}) => {
             <div className='topic-text'>
                 <h4>{name}</h4>
                 <p>Total quizs: {total}</p>
-                <Link to={`/quizs/${id}`}><button>Start Practies</button></Link>
+                <Link to={`/quizs/${id}`}><button>Practies &rarr;</button></Link>
             </div>
         </div>
     );
